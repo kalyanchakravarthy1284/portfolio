@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title> My Portfolio</title>
+    <style>
+        nav{
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            font-size: xx-large;
+            align-self:center;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgba(172, 174, 172, 0.709);
+        }
+        .button{
+            display: flex;
+            gap:20px;
+            align-self: center;
+        }
+        h1{
+            color:brown;
+            text-align: center;
+            font-family:'Lucida Sans';
+            font-size: xx-large;
+        }
+        li{
+            color:rgb(1, 16, 16);
+        }
+        section{
+            
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+
+
+            display:flex; 
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+        }
+        .About{
+            background-color: rgba(119, 163, 119, 0.6);
+            text-align: center; 
+        }
+        .MySkills{
+            background-color: rgba(100, 188, 203, 0.6);
+            color: bisque;
+
+            align-items: normal;
+        }
+        .Projects{
+            background-color: rgba(175, 183, 89, 0.6);
+            text-align: center; 
+        }
+        .ContactMe{
+            background-color: rgb(226, 211, 240, 0.6);
+            text-align: center;
+        }
+        body{
+            background-image: url("2.png");
+            background-repeat:unset ;
+            background-position: top;
+            background-attachment: fixed;
+            background-color: rgba(236, 233, 233, 0.1);
+        }
+        .StayConnected{
+                display: flex;
+                gap:60px;
+                align-self: center;
+                justify-content: center;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+    <header style="text-align: center;">
+        <nav>
+            <h1 style= "color:rgb(62, 3, 15);">Mr.Kalyan Chakravarthy</h1>
+            <h2 style= "color:rgb(222, 83, 36)">Computer Science with Specialization in AI & ML</h2></section>
+            <h2 style= "color:rgb(234, 51, 19)">Student at VIT chennai</h2></section>
+            <div class=" button">
+            <a href="#About"><button style="color:rgb(40, 174, 189); height: 40px; width: 100px; font-size: large;">About</button></a>
+            <a href="#MySkills"><button style="color:rgb(40, 174, 189); height: 40px; width: 100px; font-size: large;">MySkills</button></a>
+            <a href="#Projects"><button style="color:rgb(40, 174, 189); height: 40px; width: 100px; font-size: large;">Projects</button></a>
+            <a href="#ContactMe"><button style="color:rgb(40, 174, 189); height: 40px; width: 100px; font-size: large;">ContactMe</button></a>
+        </div>
+        </nav>
+        <br>
+    </header>
+    
+    <main>
+        <section id = About class = "About">
+            <strong><p> To pursue a challenging career and be a part of a progressive organization that gives a scope for enhancing my
+                knowledge andutilizing my skills towards the growth of the organization. As an enthusiastic and committed Com
+               puter Science and Engineering student, I am looking for internship and full-time opportunities where I can apply
+                my technical knowledge and skills to real-world projects. I aim to gain hands-on experience in problem-solving,
+                teamwork, andtobuildasuccessful career in the field of technology</p></strong>
+
+            <br><br>
+            <div id = image class = image>
+                <img src = "5.jpg" controls height = 400, width = 300>
+                <img src = "6.jpg" controls height = 400, width = 300>
+                <img src = "4.jpg" controls height = 400, width = 300>
+            </div>
+        </section>
+        <br>
+
+        <section id = MySkills class = "MySkills">
+            <br>
+            <strong><h1>My skills</h1></strong>
+            <ol style = "font-size: larger; background-color: rgba(250, 235, 215, 0.312);">
+                <li>Java</li>
+                <li>Python</li>
+                <li>C,C++</li>
+                <li>SQL</li>
+                <li>AWS</li>
+                <li>OOPS</li>
+                <li>Machine Learning</li>
+                <li>Web Development</li>
+                <li>Unity</li>
+            </ol>
+            <br>
+        </section>
+        <br>
+
+        <section id = Projects class = "Projects">
+            <br>
+            <h1>My Projects</h1>
+            <table> 
+                <tr style = "color:black; font-size: xx-large; background-color:beige;">
+                    <th>Project title</th>
+                    <th>Project Decription</th>
+                    <th>Timeline</th>
+                    <th>visit my project</th>
+                </tr>
+                <projects>
+                    <tr style = "background-color: azure;">
+                        <th>Potato disease classification</th>
+                        <th>predicting the disease through leaf image using ml algorithms and deploying it through flask</th>
+                        <th>2023</th>
+                        <th><a href="https://github.com/kalyanchakravarthy1284/Potato-leaf-disease-classification" target="_blank">github</a></th>
+                    </tr>
+                    <tr style = "background-color: azure;">
+                        <th>Online LMS</th>
+                        <th>To provide an interactive session with the faculty and create an online learning system for students</th>
+                        <th>2023</th>
+                        <th><a href="https://github.com/kalyanchakravarthy1284/AWS_Online-Learning-Management-System" target="_blank">github</a></th>
+                    </tr>
+                    <tr style = "background-color: azure;">
+                        <th>Force  measurement</th>
+                        <th>To capture,analyze, and visualize real-time sensor data</th>
+                        <th>2023</th>
+                        <th><a href="https://github.com/kalyanchakravarthy1284/Force-Measurement-iot-" target="_blank">github</a></th>
+                    </tr>
+                    <tr style = "background-color: azure;">
+                        <th>Smart Home Automation</th>
+                        <th> This smart home automation project aims to create an intelligent,energy-efficient, and safe residential environment by integrating a variety of
+                            sensors, controllers, and remote-control capabilities.</th>
+                        <th>2024</th>
+                        <th><a href="https://github.com/kalyanchakravarthy1284/Embedded_Home_Automation" target="_blank">github</a></th>
+                    </tr>
+                    <tr style = "background-color: azure;">
+                        <th>Tollgate system</th>
+                        <th>using rfid tag creating a tollgate system</th>
+                        <th>2024</th>
+                        <th><a href="https://github.com/kalyanchakravarthy1284/TollGate_System" target="_blank">github</a></th>
+                    </tr>
+                    <tr style = "background-color: azure;">
+                        <th>pneumonia detection</th>
+                        <th> Developing a deeplearning-based system to automatically classify chest X-ray images as normal or pneumonia-affected using ml algorithms</th>
+                        <th>2024</th>
+                        <th><a href="https://github.com/kalyanchakravarthy1284/Pneumonia-Detection-from-Chest-X-ray-Images" target="_blank">github</a></th>
+                    </tr>
+                    <tr style = "background-color: azure;">
+                        <th>Paddy Leaf Disease prediction</th>
+                        <th> AI-driven PaddyDiseasesPrediction: DeepLearning with Transfer Learning Approach</th>
+                        <th>2024</th>
+                        <th><a href="https:google.com" target="_blank">github</a></th>
+                    </tr>
+                    <tr style = "background-color: azure;">
+                        <th>DDoS attack detection</th>
+                        <th> Adaptive Federated Learning for DDoS Attack Detection</th>
+                        <th>2025</th>
+                        <th><a href="https:google.com" target="_blank">github</a></th>
+                    </tr>
+                </projects>
+            </table>
+        </section>
+        <br>
+
+
+        <section id = ContactMe class = "ContactMe">
+            <h1>ContactMe</h1>
+            <form action="https://formsubmit.co/kalyanchakravarthy1284@gmail.com" method="POST">
+                <label for = "Name">Name:</label>
+                <input type="text" id = "name" name = "name" required>
+                <br><br>
+            
+                <label for = "Email">Email:</label>
+                <input type = "email" id = "email" name = "email" required>
+                <br><br>
+
+                <label for = "Contact Number">Phone No:</label>
+                <input type = "tel" id = "Contact Number" name = "Contact Number" required>
+                <br><br>
+    
+                <label for = "gender">Choose your Gender</label>
+                <input type = "radio" id = Male, value = Male>
+                <label for = "Male">Male</label>
+                <input type = "radio" id = Female, value = Female>
+                <label for = "Female">Female</label>
+                <input type = "radio" id = not, value = not>
+                <label for = "not">Not prefer to say</label>
+                <br><br>
+
+                <label for="Decription">Desciption: </label>
+                <input type = "text" id = "Description" name = "Description">
+                <br>
+                <br>
+    
+                <button type = "submit" style = "font-size: large;">Submit</button>
+            </form>
+            <br>
+        </section>
+        <br>
+
+        <div style = "background-color: #eff1f2";>
+            <br>
+            <h1>Stay Connected</h1>
+            <br>
+            <div id = StayConnected class = StayConnected style = "color: black;"> 
+            <a href = "https://www.instagram.com/kalyan._.128/" target="_blank"><i class="fab fa-instagram" style="font-size: 24px;"></i><span><h2 style = "color: black; text-decoration: none; margin-left: 8px;">Instagram</h2></a></span>
+            <a href = "https://www.linkedin.com/in/kalyan-chakravarthy-yarraguntla/" target="_blank"><i class="fab fa-linkedin" style="font-size: 24px;"></i><h2 style = "color: black; text-decoration: none;">Linkedin</h2></a>
+            <a href = "https://github.com/kalyanchakravarthy1284" target="_blank"><i class="fab fa-github" style="font-size: 24px;"></i><h2 style = "color: black; text-decoration: none;">Github</h2></a>
+            <br>
+            </div>
+        </div>
+    
+    </main>
+    
+    <footer style = "background-color: rgb(108, 178, 196)";>
+        <br>
+        <p>VELLORE INSTITUTE OF TECHNOLOGY CHENNAI</p>
+        <P>Email: kalyanchakravarthy1284@gmail.com</P>
+        <p> Phone No: 7997559401</p>
+        <br>
+    </footer>
+</body>
